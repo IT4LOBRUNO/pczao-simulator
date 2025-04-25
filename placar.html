@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Placar - Monte seu PC</title>
+  <link rel="stylesheet" href="placar.css">
+  <!-- Inclua o Firebase se for usar os dados reais -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+</head>
+<body>
+  <div class="placar-container">
+    <h1>Placar</h1>
+    <div class="tabela-placar">
+      <div class="cabecalho">
+        <div class="coluna posicao">#</div>
+        <div class="coluna nome">Jogador</div>
+        <div class="coluna tempo">Tempo</div>
+      </div>
+      <div id="dados-placar">
+        <!-- Os dados serão inseridos aqui via JavaScript -->
+      </div>
+    </div>
+    <a href="index.html" class="btn-voltar">Voltar ao Menu</a>
+  </div>
+
+  <script src="placar.js"></script>
+</body>
+</html>

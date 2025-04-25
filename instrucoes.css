@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;
+    color: #2e7d32;
+    text-align: center;
+  }
+  
+  #instrucoes-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    text-align: left;
+    margin: 0 auto 30px;
+    padding-left: 40px;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .instrucoes-lista {
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .destaque {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .slot-cor {
+    color: #f44336;
+  }
+  
+  .slot-hover {
+    color: #2196F3;
+  }
+  
+  .power-off {
+    color: #f44336;
+  }
+  
+  .power-on {
+    color: #4CAF50;
+  }
+  
+  .placar {
+    color: #FFC107;
+  }

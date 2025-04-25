@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .placar-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  .tabela-placar {
+    margin-bottom: 30px;
+  }
+  
+  .cabecalho {
+    display: flex;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .coluna {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  .posicao {
+    width: 20%;
+  }
+  
+  .nome {
+    width: 50%;
+  }
+  
+  .tempo {
+    width: 30%;
+  }
+  
+  .linha-placar {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .linha-placar:last-child {
+    border-bottom: none;
+  }
+  
+  .linha-placar .coluna {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .linha-placar:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-voltar:hover {
+    background-color: #d32f2f;
+  }
